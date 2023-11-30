@@ -44,6 +44,10 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
+  color: #000;
+}
+.container .list .item .link:visited {
+  color: #3b3b3b;
 }
 .container .list .item .link::after {
   content: "";

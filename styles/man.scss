@@ -41,6 +41,10 @@ a{
                 text-transform: uppercase;
                 font-weight: 700;
                 position: relative;
+                color: #000;
+                &:visited{
+                    color: #3b3b3b;
+                }
                 &::after{
                     content: "";
                     position: absolute;
