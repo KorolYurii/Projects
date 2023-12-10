@@ -25,15 +25,19 @@ a{
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
+        padding: initial;
         .item{
+            
             &:hover{
                 transition: all .3s ease;
                 transform: scale(1.1);
             }
             
             img{
-                max-width: 250px;
-                min-height: 100px;
+                max-width: 200px;
+                width: 100%;
+                max-height: 90px;
+                height: 100%;
             }
             .link{
                 text-align: center;

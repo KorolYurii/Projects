@@ -29,14 +29,17 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  padding: initial;
 }
 .container .list .item:hover {
   transition: all 0.3s ease;
   transform: scale(1.1);
 }
 .container .list .item img {
-  max-width: 250px;
-  min-height: 100px;
+  max-width: 200px;
+  width: 100%;
+  max-height: 90px;
+  height: 100%;
 }
 .container .list .item .link {
   text-align: center;

@@ -1,0 +1,27 @@
+img{
+    max-width: 300px;
+}
+.container{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1440px;
+}   
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .nav-list-wrapper{
+        .nav-list{
+            .nav-item{
+                display: inline-block;
+                .nav-item:not(:last-child){
+                    margin-right: 30px;
+
+                }
+            }
+        }
+    }
+}
